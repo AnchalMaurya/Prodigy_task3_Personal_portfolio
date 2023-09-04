@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/879122160e.js" crossorigin="anonymous">
+
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #header {
+            background-image: url(https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg);
+
+
+            height: 980px;
+            background-position: center;
+            background-size: cover;
+            display: block;
+        }
+
+        body {
+            background-color: rgb(18, 58, 95);
+        }
+
+        .navbar li {
+
+            align-items: right;
+            margin-right: 25px;
+            list-style: none;
+            margin: 10px 20px;
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar ul {
+            overflow: hidden;
+            text-align: right;
+
+
+        }
+
+        .navbar li a {
+            padding: 1px 1px;
+            text-decoration: none;
+            color: white;
+            position: relative;
+        }
+
+
+        .navbar ul li a::after {
+            width: 100%;
+            background-color: rgb(202, 55, 79);
+            height: 3px;
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            transition: 0.5s;
+            visibility: hidden;
+        }
+
+        .navbar ul li a:hover::after {
+            width: 100%;
+            visibility: visible;
+
+        }
+
+        .name h1 {
+            color: white;
+            text-decoration-style: wavy;
+            text-align: left;
+            margin-left: 35px;
+
+        }
+
+        .content h1 {
+            font-size: 70px;
+            font-weight: bold;
+            color: #ffffff;
+            margin-left: 35px;
+            margin-top: 10%;
+            vertical-align: middle;
+
+        }
+
+        .content h3 {
+            margin-left: 55px;
+            color: white;
+            font-size: 40px;
+            margin-top: 10px;
+            vertical-align: middle;
+        }
+
+        .content {
+            margin-top: 20%;
+            margin-bottom: 10%;
+            vertical-align: middle;
+        }
+
+        #header i{
+            font-size: 50px;
+            color: #ffffff;
+            margin-left: 50px;
+        }
+
+        /*----------------------------------about---------------------*/
+
+        #about {
+            padding: 80px 0px;
+            color: white;
+            margin-bottom: 0;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .aboutcol1 {
+            flex-basis: 35%;
+            margin-bottom: 20px;
+        }
+
+        .aboutcol1 img {
+            width: 80%;
+            border-radius: 7px;
+            filter: drop-shadow(10px 10px 20px white);
+            height: 100%;
+            margin-left: 30px;
+        }
+
+        .aboutcol2 {
+            flex-basis: 50%;
+        }
+
+        .sub-title {
+
+            font-size: 50px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 20px;
+        }
+
+        .aboutcol2 p {
+            font-size: 25px;
+            margin-top: 25px;
+            margin-right: 200px;
+            word-spacing: 8px;
+            margin-bottom: 0px;
+        }
+
+        .aboutcol2 h2{
+            font-size: 30px;
+            margin-top: 20px;
+            color: rgb(167, 235, 235);
+
+        }
+    h2 a{
+        text-decoration:underline;
+        color:pink;
+        
+    }
+
+        /*---------------------services----------------------*/
+
+        #services {
+            padding: 30px 0;
+            margin-left: 25px;
+            margin-right: 25px;
+margin-top: 30px;
+        }
+
+        .service-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 400px;
+            margin-top: 50px;
+            color: white;
+
+        }
+
+        .service-list div {
+            background-color: rgb(120, 123, 209);
+            padding: 40px;
+            font-size: 25px;
+            font-weight: 300;
+            border-right: 10px;
+            transition: transform 0.5s;
+        }
+
+        .service-list div a {
+            text-decoration: none;
+            color: white;
+            font-size: 12px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .service-list div:hover {
+            background-color: rgb(52, 238, 182);
+            border-radius: 10px;
+            transition: transform 0.5s;
+
+        }
+       #services i{
+        font-size:45px;
+
+    }
+
+        /*----------------------------------------------portfolio----------------------------*/
+        #portfolio {
+            margin-top: 50px;
+            padding: 50px 0;
+            margin-left: 25px;
+        }
+
+        .work-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 40px;
+            margin-top: 50px;
+        }
+
+        .work {
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            margin-left: 80px;
+            margin-right: 50px;
+            
+        }
+
+        .work img {
+            width: 100%;
+            border-radius: 10px;
+            display: block;
+            transition: transform 0.5s;
+        }
+
+        .layer {
+            width: 100%;
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(48, 69, 132));
+            display: flex;
+            align-items: center;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            text-align: center;
+            justify-content: center;
+            font-size: 20px;
+            color: white;
+            flex-direction: column;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            top: 0;
+            right: 0;
+            transition: height 0.5s;
+            
+        }
+
+        .work:hover img {
+            transform: scale(1);
+            
+        }
+
+        .work:hover .layer {
+            height: 100%;
+            
+
+        }
+       #portfolio .container h2{
+            font-weight: bold;
+            font-style: italic;
+            
+            text-align: center;
+            justify-content: center;
+            color: white;
+            font-size: 35px;
+text-decoration: wavy;
+margin-top: 60px;
+overflow: hidden;
+        }
+
+        /*--------------------------contact----------------------*/
+#contact{
+    margin-left: 25px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    margin-top: 70px;
+}
+
+        .contact-left {
+            flex-basis: 35%;
+
+        }
+
+        .contact-right {
+            flex-basis: 35%;
+        }
+
+        .contact-left p {
+            margin-top: 30px;
+            font-size:20px;
+            color: white;
+        }
+
+        .contact-left p i {
+            color: lightblue;
+            margin-right: 15px;
+            font-size: 25px;
+
+        }
+
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            font-size: 30px;
+            margin-right: 15px;
+visibility: visible;
+            color:white;
+            display: inline-block;
+        }
+
+        .social-icons a:hover {
+            color:lightblue;
+            transform: scale(0.5s);
+        }
+
+        .btn1 {
+            background-color:white;
+            color: black;
+            font-weight: bold;
+        }
+.contact-right form{
+    width:100%;
+    margin-right: 80px;
+    
+}
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    background: rgb(139, 240, 201);
+    padding:15px;
+    margin:15px 0;
+color:black;
+font-size: 20px;
+border-radius:5px;
+
+}
+form .btn1{
+    padding: 15px 60px;
+    font-size:18px;
+    margin-top:20px;
+    cursor:pointer;
+}
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="page">
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="name">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="content">
+                <h1>
+                    Hey!! I'm Anchal Maurya..
+                </h1>
+                <h3>Web Developer</h3>
+                <br>
+                <i class="fas fa-code"></i>
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------about------------------------------------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="/IMAGE.jpeg" >
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>This is me Anchal Maurya. I am 2nd year student at Roorkee College of Engineering.I am a Web
+                        Developer.
+                        I want to secure a responsible career opportunity
+                        to fully utilize my training and skills , while making a significant contribution to the success
+                        of the company. </p>
+                        <h2>To know more: <br>
+                           <a href="#contact"> Contact Me</a></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------------------services------------------------------------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>
+                        Data Science
+                    </h2>
+                    <p> I'll provide you with a  form of outsourcing that involves the delivery of information gleaned from advanced analytics applications run by data scientists at an outside company to corporate clients for their business use.
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+                <div>
+                    <i class="fa-brands fa-code"></i>
+                    <h2>
+                        Web Design 
+                    </h2>
+                    <p> I'll provide you the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience.
+                    </p>
+                    <a href="#">Learn more</a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--------------------------portfolio-------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img
+                        src="/Landing_Page.avif">
+                    <div class="layer">
+                        <h3>Responsive Landing Page</h3><br>
+                        <p>
+                            A responsive landing page is a web page that renders correctly on all the devices such as computers, mobile phones, tablets, or different operating systems.
+                        </p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img
+                        src="/TC.webp">
+                    <div class="layer">
+                        <h3>Temperature Converter</h3><br>
+                        <p>
+                            A temperature converter helps in the conversion of the measurement units of the temperature recorded in a particular unit. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img
+                        src="/wp-logo.png">
+                                    <div class="layer">
+                        <h3>Wordpress site</h3><br>
+                        <p>
+                            WordPress is a content management system (CMS) that allows you to host and build websites.
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <h2>"Success is not about never falling , But about rising every time you fall ."</h2>
+        </div>
+    </div>
+    <!----------------------------------contact-------------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>anchalmaurya2408@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8340363465</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/aanchalmaurya_24?igshid=NGExMmI2YTkyZg=="><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anchal-maurya-571347282/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3B23d27323-a1b1-43ea-ba85-91ee51c26a0d"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+
+                    </div>
+
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn1">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
