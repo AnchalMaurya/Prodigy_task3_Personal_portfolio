@@ -33,24 +33,13 @@ It showcases my **skills, projects, and contact details** in a clean and respons
 
 ---
 
-## 📸 Preview
 
-![Portfolio Preview](https://img.freepik.com/premium-vector/purple-web-development-background_76964-167.jpg)
+## 🔗 Live Demo
 
----
-
-## 🚀 How to Use
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-
-
-
-🔗 Live Demo
 👉 Click here to view my portfolio
 
-📞 Contact
+## 📞 Contact
+
 Email: anchalmaurya2408@gmail.com
 Phone: 8340363465
 LinkedIn: Anchal Maurya
