@@ -1,9 +1,32 @@
-Personal Portfolio Website
+## Personal Portfolio Website
 
 This is my Personal Portfolio Website, built using **HTML5**, **CSS3**, and **Font Awesome icons**.  
 It showcases my **skills, projects, and contact details** in a clean and responsive layout.
 
----
+## 📷 Photos
+
+
+**Home**
+
+![pic1](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100041.png)
+
+**About Mee**
+
+![pic2](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100102.png)
+
+**My Services**
+
+![pic3](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100157.png)
+
+**My Work**
+
+![pic4](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100231.png)
+
+**Contact Mee**
+
+![pic5](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100245.png)
+
+
 
 ## ✨ Features
 
@@ -30,13 +53,6 @@ It showcases my **skills, projects, and contact details** in a clean and respons
 - **HTML5** – Structure of the website  
 - **CSS3** – Styling and layout  
 - **Font Awesome** – Icons for better visuals  
-
----
-
-
-## 🔗 Live Demo
-
-👉 Click here to view my portfolio
 
 ## 📞 Contact
 
