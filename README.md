@@ -57,6 +57,9 @@ It showcases my **skills, projects, and contact details** in a clean and respons
 ## 📞 Contact
 
 Email: anchalmaurya2408@gmail.com
+
 Phone: 8340363465
+
 LinkedIn: Anchal Maurya
+
 Instagram: @aanchalmaurya_24
