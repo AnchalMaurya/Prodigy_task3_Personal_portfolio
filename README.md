@@ -16,15 +16,15 @@ It showcases my **skills, projects, and contact details** in a clean and respons
 
 **🚀 My Services**
 
-![pic3](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100157.png)
+![pic3](https://github.com/AnchalMaurya/Bharat_Intern_Task1_Portfolio/blob/main/Screenshot%202025-09-28%20214923.png)
 
 **📂 My Work**
 
-![pic4](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100231.png)
+![pic4](https://github.com/AnchalMaurya/Bharat_Intern_Task1_Portfolio/blob/main/Screenshot%202025-09-28%20214951.png)
 
 **📞 Contact Mee**
 
-![pic5](https://github.com/AnchalMaurya/Prodigy_task3_Personal_portfolio/blob/main/Screenshot%202025-09-27%20100245.png)
+![pic5](https://github.com/AnchalMaurya/Bharat_Intern_Task1_Portfolio/blob/main/Screenshot%202025-09-28%20215016.png)
 
 
 
